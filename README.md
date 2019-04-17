@@ -35,6 +35,14 @@ const imageOperator = ImageOperator({
   }
 })
 ```
+imageOperator 有4个属性
+插件实例：
+- imageOperator.proxy() 启动本地服务
+- imageOperator.upload() 上传图片到阿里云OSS
+获取访问地址
+- imageOperator.getProxyURI(localPath) // 获取本地访问地址
+- imageOperator.getNetURI(localPath) // 获取线上访问地址
+
 第二步：将插件添加到webpack中
 ```webpack.config.js
 plugins: [
