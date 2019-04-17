@@ -134,6 +134,7 @@ module.exports = {
     // 重写url-loader的逻辑，让其使用线上图片的路径
     chainConfig.module
       .rule('picture')
+      .test( /\.(svg|png|jpe?g|gif)$/i) // 兼容svg
       .use('url')
       .loader('url-loader')
       .options({
