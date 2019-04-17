@@ -10,6 +10,7 @@
 便利性：
 megalo-image-service会暴露出接口生成可访问的资源地址，
 结合url-loader或者file-loader配置进行自动替换。
+由于是线上访问，因此完美支持svg
 
 ## install
 ```npm
