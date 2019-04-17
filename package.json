@@ -5,7 +5,7 @@
   "main": "built/index.js",
   "author": "卓钟侄 <920026184@qq.com>",
   "license": "MIT",
-  "repository": "https://github.com/NextBoy/image-service",
+  "repository": "https://github.com/NextBoy/megalo-image-service",
   "scripts": {
     "build": "node_modules/typescript/bin/tsc",
     "build:mac": "node_modules/typescript/bin/tsc",
