@@ -14,7 +14,7 @@ class Operator {
   constructor (config: Options, target: string) {
     this.target = target
     this.config = config
-    this.config.fileType = this.config.fileType || /\.(png|jpe?g|gif)$/i
+    this.config.fileType = this.config.fileType || /\.(svg|png|jpe?g|gif)$/i
     // 连接阿里云OSS
     this.client = new OSS(config)
     const bucket = config.bucket

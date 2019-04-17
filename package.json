@@ -1,10 +1,11 @@
 {
-  "name": "image-service",
-  "version": "0.0.1",
+  "name": "megalo-image-service",
+  "version": "0.0.2",
   "description": "本地图片代理以及图片上传",
   "main": "built/index.js",
   "author": "卓钟侄 <920026184@qq.com>",
   "license": "MIT",
+  "repository": "https://github.com/NextBoy/image-service",
   "scripts": {
     "build": "node_modules/typescript/bin/tsc",
     "build:mac": "node_modules/typescript/bin/tsc",
